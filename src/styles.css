@@ -1,0 +1,92 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #5f0979 35%, rgba(95,9,121,1) 69%, rgba(2,0,36,1) 100%);
+  }
+  
+  .cabezera{
+    display: flex;  /* Cabezera en Horizontal */  
+    align-items: center; /* Centra los elementos*/
+    justify-content: space-between;  /* elemntos separados en cada esquina*/
+    height: 120px;  /* header (Cabezera)*/
+    padding-left: 50px;
+    padding-right: 50px;
+  
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #5f0979 35%, rgba(95,9,121,1) 69%, rgba(2,0,36,1) 100%);
+  
+  }
+  
+  .logo img{ 
+    height: 140px;  /* tamaño/altura de la imagen */
+  }
+  
+  .media{
+    display: flex;
+    
+  }
+  
+  .media a{
+    text-decoration: none; /* Le saca el guion a las letras */
+    color: white;
+    font-size: 20px; /* Tamaño de las Letras*/
+    font-weight: 800; /*tamaño de negritas*/
+    margin-left: 17px;
+  }
+  
+  .media a:hover{
+    color: black; /* Al pasar el Cursor cambia de color */
+  }
+  
+  .container {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+  
+    background-image: url(./assets/FondoPrueba.jpg);
+    background-position: center;
+  
+  }
+  
+  div.container {
+    color: #efefef;
+  }
+  
+  
+  #Inicio{
+    border: 2px solid rgb(180, 10, 200);
+    border-radius: 0.8rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 700px;
+  }
+  
+  #SobreMi{
+    border: 2px solid rgb(180, 10, 200);
+    border-radius: 0.8rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 500px;
+  }
+  
+  #Proyectos{
+    border: 2px solid #b40ac8;
+    border-radius: 0.8rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 500px;
+  }
+  
+  #Contacto{
+    border: 2px solid #b40ac8;
+    border-radius: 0.8rem;
+    height: 500px;
+    max-width: 1250px;
+  }
+  
+  
